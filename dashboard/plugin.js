@@ -6,7 +6,7 @@
   'use strict';
 
   const PLUGIN_ID = 'hermes-command-center';
-  const API_BASE = '/api/plugins/command-center';
+  const API_BASE = '/api/plugins/hermes-command-center';
   const POLL_INTERVAL = 5000;
 
   // Access Hermes SDK
