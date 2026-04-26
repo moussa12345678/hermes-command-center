@@ -27,6 +27,7 @@
       window[PLUGIN_ID] = this;
     }
 
+    // (جميع الدوال الداخلية كما هي من الإصدار السابق، لم يتم تغييرها)
     async init() {
       this.injectStyles();
       await this.loadChartJS();
@@ -298,9 +299,7 @@
     }
   }
 
-  // ───────────────────────────────────────────────────────────────────────
-  // React Wrapper Component
-  // ───────────────────────────────────────────────────────────────────────
+  // ── React Wrapper Component ──
   function CommandCenterPage() {
     const containerRef = useRef(null);
 
