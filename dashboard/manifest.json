@@ -1,0 +1,14 @@
+{
+  "name": "hermes-command-center",
+  "label": "Command Center",
+  "description": "A comprehensive mission-control interface for real-time agent orchestration, live task steering, and system overview.",
+  "author": "moussa12345678",
+  "icon": "terminal",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/command-center",
+    "position": "end"
+  },
+  "entry": "plugin.js",
+  "api": "plugin.py"
+}
